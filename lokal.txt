@@ -1,27 +1,28 @@
 ---gitbash ke github---
 
-# buat cek udah nyambung akun github apa belum
+# buat cek udah nyambung akun github apa belum:
 git config --list
 
-# cara keluar dari config
+# cara keluar dari config:
 "wq
 
-# untuk masukin akun github klo belum sesuai
-git config --global user.email "hanippw@students.unnes.ac.id"
-git config --global user.name "hanips"
+# untuk masukin akun github klo belum sesuai:
+git config --global user.email "email"
+git config --global user.name "username"
 
-# inisialisasi empty git repo (biar masuk ke master)
+# inisialisasi empty git repo (masuk ke master):
 git init
 
 # sebelum push, pull dlu:
 git pull origin master --allow-unrelated-histories
 
-# cara masukin file:
+# masukin file yg mau di commit:
 git add nama_file (atau)
 git add .
 
-git status
+git status (buat cek doang)
 
 git commit -m "komen"
 
+# setelah commit, tinggal push:
 git push -u origin master
