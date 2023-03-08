@@ -1,4 +1,4 @@
----gitbach ke github---
+---gitbash ke github---
 
 # buat cek udah nyambung akun github apa belum
 git config --list
