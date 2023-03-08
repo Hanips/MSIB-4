@@ -1,11 +1,27 @@
-buat cek udah nyambung akun github apa belum
-git config --list
-keluar dari git config --list = enter enter, w, q
+---gitbach ke github---
 
-untuk masukin akun github klo belum sesuai
+# buat cek udah nyambung akun github apa belum
+git config --list
+
+# cara keluar dari config
+"wq
+
+# untuk masukin akun github klo belum sesuai
 git config --global user.email "hanippw@students.unnes.ac.id"
 git config --global user.name "hanips"
 
-inisialisasi empty git repo (biar masuk ke master)
+# inisialisasi empty git repo (biar masuk ke master)
 git init
 
+# sebelum push, pull dlu:
+git pull origin master --allow-unrelated-histories
+
+# cara masukin file:
+git add nama_file (atau)
+git add .
+
+git status
+
+git commit -m "komen"
+
+git push -u origin master
