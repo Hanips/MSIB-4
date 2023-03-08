@@ -1,0 +1,11 @@
+buat cek udah nyambung akun github apa belum
+git config --list
+keluar dari git config --list = enter enter, w, q
+
+untuk masukin akun github klo belum sesuai
+git config --global user.email "hanippw@students.unnes.ac.id"
+git config --global user.name "hanips"
+
+inisialisasi empty git repo (biar masuk ke master)
+git init
+
